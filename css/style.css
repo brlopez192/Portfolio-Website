@@ -117,7 +117,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .grid {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 400px 300px;
     gap: 20px;
 }
 .grid-item {
@@ -151,6 +151,12 @@ button:hover, button:focus, .button:hover, .button:focus {
     margin-right: auto;
     width: 20%;
     animation: rotation 10s infinite linear;
+}
+.meet {
+    display: block;
+    height: 140px;
+    width: 200px;
+    margin: auto;
 }
 @keyframes rotation {
     from {
